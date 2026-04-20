@@ -10,6 +10,8 @@ File deletion will replicate common user deletion methods e.g. right clicking an
 ## Data Recovery
 Deleted files will be recovered using [The Sleuth Kit's Autopsy](https://www.autopsy.com/). <br>  
 
+## MFT Output
+https://github.com/Passerbyt3/Data-Sanitization/blob/main/20260413124140_MFTECmd_%24MFT_Output%20-%20Copy.csv
 <br>
 
 [Formatting Reference](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
