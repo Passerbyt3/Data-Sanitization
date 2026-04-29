@@ -5,7 +5,9 @@ The objective of this project is to demonstrate the effectiveness of various **d
 Deleted files will be inspected for artifacts using third party tools such as [Eric Zimmerman Tools](https://ericzimmerman.github.io/#!index.md) as well as built in tools such as Windows' Registry Editor.
 
 ## File Deletion
-File deletion will replicate common user deletion methods e.g. right clicking and sending to the Recycle Bin. Other deletion scenarios cover using [Window's Cipher](https://learn.microsoft.com/en-us/troubleshoot/windows-server/certificates-and-public-key-infrastructure-pki/use-cipher-to-overwrite-deleted-data) `cipher /w:D` to overwrite deleted data.
+File deletion will replicate common user deletion methods e.g. right clicking and sending to the Recycle Bin. Other deletion scenarios cover using [Window's Cipher](https://learn.microsoft.com/en-us/troubleshoot/windows-server/certificates-and-public-key-infrastructure-pki/use-cipher-to-overwrite-deleted-data) `cipher /w:D` to overwrite deleted data, using the command prompt `del` command, and the Poweshell `Remove-Item'. 
+
+As some files are considered to be system files, these can not be downlaoded without removing their system file attribute. This was done using `Attrib -h -s “D:\Del Command\*.*” /s /d` for the `del` command, and `Remove-Item -Path C:\Test\mislabelled-system-file.txt -Force` for `Remove-Item`.
 
 ## Data Recovery
 Deleted files will be recovered using [The Sleuth Kit's Autopsy](https://www.autopsy.com/). <br>  
