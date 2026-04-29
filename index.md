@@ -1,7 +1,4 @@
-[Home](/Data-Sanitization/) | [Projects](/Data-Sanitization/projects.html)
+[Home](/Data-Sanitization/) | [MFTECmd Troubleshooting](/Data-Sanitization/troubleshooting.html)
 
 ---
 
-# Data Sanitization
-
-This repository serves as a space for me to store my research on Data Sanitization, as well as other computer forensic research I come across.
