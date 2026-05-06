@@ -17,6 +17,10 @@ The output of the MFT is stored in the file below.
 [MFT Output](https://github.com/Passerbyt3/Data-Sanitization/blob/main/20260413124140_MFTECmd_%24MFT_Output%20-%20Copy.csv)
 <br>
 
+## UsnJrl Output
+The output of $J is stored in the file below.
+[UsnJrnl Output](https://github.com/Passerbyt3/Data-Sanitization/blob/main/20260506175642_MFTECmd_%24J_Output.xlsx)
+
 ## Files Used for Deletion
 Some files were too large to add to GitHub; they are available on the Google Drive link below.
 [Google Drive Link](https://drive.google.com/file/d/1hcjtkdanCYruHR1iMOlU2t_3XF74DC6x/view?usp=sharing)
